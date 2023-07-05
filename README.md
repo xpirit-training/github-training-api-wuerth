@@ -1,1 +1,1 @@
-# wuerth-api-training
+# GitHub API Training for WürthIT
