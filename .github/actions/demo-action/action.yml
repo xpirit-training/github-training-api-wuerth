@@ -5,3 +5,4 @@ runs:
   using: "composite"
   steps:
     - run: echo "Hi from the demo action"
+      shell: bash
