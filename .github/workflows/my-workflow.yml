@@ -1,0 +1,10 @@
+name: My Demo Workflow
+
+on: [workflow_dispatch]
+
+jobs:
+  hello-world:
+    name: Hello World Job
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hej WürthIT 🥳"
