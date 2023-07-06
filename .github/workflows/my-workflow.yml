@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.5.3
+      - uses: ./.github/actions/demo-action
       - run: echo "Hej WürthIT 🥳"
 
   hello-world-2:
